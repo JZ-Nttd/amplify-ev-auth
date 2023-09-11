@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+In the project directory, you can run below for installing dependent modules, if you are using this repo for the first time. 
+
+### `npm install`
+
 In the project directory, you can run:
 
 ### `npm start`
