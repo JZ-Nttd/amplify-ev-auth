@@ -15,11 +15,9 @@ const Dashboard = () => {
       const history = useHistory();
    React.useEffect(() => {
         if(authenticated == "true") {
-            alert("Authenticated");
             console.log("Pool data userdetails : ", userName);
         }
         else { 
-            alert("Not Authenticated");
             document.getElementById("dashboard-auth").style.visibility='hidden';
             let path = `login`;
             history.push(path);
